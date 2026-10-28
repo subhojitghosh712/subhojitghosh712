@@ -1,16 +1,33 @@
-## Hi there 👋
+<p align="center">
+  <img src="./terminal.svg" width="100%" alt="Subhojit Ghosh's animated terminal profile banner"/>
+</p>
 
-<!--
-**subhojitghosh712/subhojitghosh712** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<pre>
+<b>subhojit@github:~$ cat about.txt</b>
+Computer Science student at the University of Warwick.
+Interested in software engineering, ML and building
+systems that solve real-world problems, end to end.
 
-Here are some ideas to get you started:
+<b>subhojit@github:~$ ls ~/projects</b>
+Stock-Price-Predictor  ML-powered stock prediction dashboard
+Bill-Splitter-Deluxe   shared-expense management application
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<b>subhojit@github:~$ cat experience.txt</b>
+Barclays   Technology Developer Discovery Programme
+Jio        Software engineering internship
+Warwick    BSc Computer Science
+
+<b>subhojit@github:~$ cat stack.yml</b>
+languages: [Python, Java, JavaScript, SQL]
+backend:   [Flask, FastAPI, SQLAlchemy]
+ml/data:   [Scikit-learn, Pandas, NumPy, XGBoost]
+web:       [HTML, CSS, JavaScript]
+tools:     [Git, GitHub, Plotly]
+
+<b>subhojit@github:~$ cat contact.txt</b>
+web       <a href="https://subhojitghosh.vercel.app/">subhojitghosh.vercel.app</a>
+github    <a href="https://github.com/subhojitghosh712">github.com/subhojitghosh712</a>
+linkedin  <a href="YOUR_LINKEDIN_URL">LinkedIn profile</a>
+
+<b>subhojit@github:~$</b> █
+</pre>
