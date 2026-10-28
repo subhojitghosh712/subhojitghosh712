@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
+<title id="title">subhojit@github: fastfetch</title>
+<desc id="desc">Animated terminal-style profile banner for Subhojit Ghosh, Computer Science student at the University of Warwick interested in software engineering, machine learning and telecom systems.</desc>
+<defs>
+  <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8bf0d8"/><stop offset="1" stop-color="#329b87"/></linearGradient>
+  <linearGradient id="face" x1="0" y1="0" x2="0.9" y2="1"><stop offset="0" stop-color="#5cc8b0"/><stop offset="1" stop-color="#245e54"/></linearGradient>
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .muted{fill:#928e84}.white{fill:#eee9df}.bright{fill:#f8f5ed}.accent{fill:#7ed9c4}.bold{font-weight:700}
+    .line{opacity:0;animation:appear .55s ease-out forwards}.l1{animation-delay:1.0s}.l2{animation-delay:1.35s}.l3{animation-delay:1.7s}.l4{animation-delay:2.05s}
+    .typing{transform-origin:left;animation:blink .85s steps(1) infinite}.logo{transform-origin:250px 185px;animation:float 5s ease-in-out infinite}
+    .shine{animation:shine 4s ease-in-out infinite}
+    @keyframes appear{to{opacity:1;transform:translateY(0)}}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes float{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-5px) rotate(1deg)}}
+    @keyframes shine{0%,100%{opacity:.45}50%{opacity:1}}
+    @media(prefers-reduced-motion:reduce){.line,.typing,.logo,.shine{animation:none;opacity:1}}
+  </style>
+</defs>
+<!-- terminal shell -->
+<rect x="1" y="1" width="998" height="338" rx="14" fill="#171615" stroke="#37342f" stroke-width="1.5"/>
+<path d="M15 1H985A14 14 0 0 1 999 15V43H1V15A14 14 0 0 1 15 1Z" fill="#201f1c"/>
+<path d="M1 43.5H999" stroke="#302d28"/>
+<circle cx="24" cy="22" r="5" fill="#e77970"/><circle cx="43" cy="22" r="5" fill="#dcb86c"/><circle cx="62" cy="22" r="5" fill="#75b895"/>
+<text x="500" y="27" text-anchor="middle" font-size="13" class="muted">subhojit@github: ~</text>
+<!-- prompt -->
+<text x="34" y="75" font-size="15"><tspan class="accent bold">subhojit@github</tspan><tspan class="muted">:</tspan><tspan class="bright bold">~</tspan><tspan class="muted">$ </tspan><tspan class="bright">fastfetch</tspan></text>
+<rect x="226" y="59" width="9" height="18" fill="#eee9df" class="typing"/>
+<!-- SG mark -->
+<g class="logo" filter="url(#glow)">
+  <path d="M78 130 L94 112 L205 112 L221 130 L221 240 L205 258 L94 258 L78 240Z" fill="#1f2926" stroke="#326e61" stroke-width="1.5"/>
+  <path d="M95 139 L108 126 L195 126 L207 139 L207 154 L185 154 L179 147 L119 147 L112 154 L112 172 L120 180 L182 180 L207 205 L207 231 L194 244 L106 244 L92 230 L92 215 L114 215 L120 223 L180 223 L187 216 L187 211 L176 200 L116 200 L95 179Z" fill="url(#face)"/>
+  <path d="M232 126H251L266 142V226L251 244H232Z" fill="#276b5d"/>
+  <path d="M253 126H271L286 142V226L271 244H253L268 226V142Z" fill="#4eaf99"/>
+  <path d="M92 154H112V172L120 180H182L207 205V216L187 196L176 190H116L95 179Z" fill="#80e2cc" opacity=".48"/>
+  <path d="M95 139L108 126H195L207 139" fill="none" stroke="#a4f6e4" stroke-width="2" class="shine"/>
+</g>
+<!-- right-hand information -->
+<g transform="translate(330 0)">
+  <text x="0" y="116" font-size="22" class="bright bold">Subhojit Ghosh</text>
+  <text x="0" y="141" font-size="13" class="accent">Computer Science · University of Warwick</text>
+  <path d="M0 158H625" stroke="#37342f"/>
+  <g class="line l1" transform="translate(0 0)">
+    <text x="0" y="184" font-size="13" class="accent">$ whoami</text>
+    <text x="105" y="184" font-size="13" class="white">Software engineering · ML · telecom systems</text>
+  </g>
+  <g class="line l2">
+    <text x="0" y="211" font-size="13" class="accent">$ experience</text>
+    <text x="105" y="211" font-size="13" class="white">Barclays Discovery · Jio Software Engineering</text>
+  </g>
+  <g class="line l3">
+    <text x="0" y="238" font-size="13" class="accent">$ projects</text>
+    <text x="105" y="238" font-size="13" class="white">Stock prediction · Bill Splitter Deluxe</text>
+  </g>
+  <g class="line l4">
+    <text x="0" y="265" font-size="13" class="accent">$ stack</text>
+    <text x="105" y="265" font-size="13" class="white">Python · Java · JavaScript · Flask · FastAPI · SQL</text>
+  </g>
+  <path d="M0 286H625" stroke="#37342f"/>
+  <text x="0" y="311" font-size="12" class="muted">building useful things, one commit at a time</text>
+  <text x="626" y="311" text-anchor="end" font-size="13" class="accent">▌</text>
+</g>
+</svg>
