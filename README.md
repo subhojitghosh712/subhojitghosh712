@@ -1,43 +1,40 @@
 <p align="center">
-  <img src="./terminal.svg" width="100%" alt="Animated terminal banner for Subhojit Ghosh, Computer Science student at the University of Warwick." />
+  <img src="./terminal.svg" width="100%" alt="Subhojit Ghosh's animated terminal profile banner"/>
 </p>
 
-<h2 align="center">Hey, I'm Subhojit Ghosh 👋</h2>
+<pre>
+<b>subhojit@github:~$ cat about.txt</b>
+Second-year Computer Science student at the University of Warwick.
+Interested in AI/ML, software engineering, automation and cybersecurity.
+I enjoy building practical applications and systems that solve
+real-world problems, from machine learning to network automation.
 
-<p align="center">
-  Second-year Computer Science student at the University of Warwick, interested in AI/ML, software engineering, automation, and cybersecurity.
-</p>
+<b>subhojit@github:~$ ls ~/projects</b>
+Stock-Price-Predictor  ML-powered stock prediction dashboard
+Bill-Splitter-Deluxe   Expense-sharing platform with debt verification
+CrediWise              AI-powered financial literacy mobile app
 
-<p align="center">
-  <a href="https://subhojitghosh.vercel.app/">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/ghoshsubhojit/">LinkedIn</a> ·
-  <a href="mailto:Subhojit.Ghosh@warwick.ac.uk">Email</a>
-</p>
+<b>subhojit@github:~$ cat experience.txt</b>
+Jio        Software Engineering Intern (Jul–Sep 2026)
+           Deployed 4 full-stack network automation applications
+Barclays   Technology Developer Discovery Programme (Apr 2026)
+           Secured a 2027 Technology Developer Summer Internship offer
+IBM        CSRBOX SkillsBuild Programme (Jun 2024)
+Warwick    BSc Computer Science (2025–2028)
 
-~/about
-I enjoy building practical software—from full-stack applications and machine-learning tools to automation systems that help people work with data more effectively.
-- 🎓 BSc Computer Science, University of Warwick (2025–2028)
-- 💻 Software Engineering Intern, Reliance Jio — deployed four full-stack network-automation applications
-- 🏦 Barclays Technology Developer Discovery Programme — selected for a 2027 Summer Internship
-- 🧠 Interested in AI/ML, software engineering, automation, and cybersecurity
-~/projects
-Project	What it does	Stack
-Stock Price Predictor	Full-stack ML dashboard predicting stock movements across multiple time horizons, using Random Forest and XGBoost with 30+ technical indicators.	Python, FastAPI, JavaScript, ML
-Bill Splitter Deluxe	Expense-sharing platform with authentication, receipt uploads, debt verification, email notifications, multi-currency support, and admin tools.	Python, Flask, SQLAlchemy, JavaScript
-CrediWise	Financial-literacy mobile app with credit-score simulation, loan tracking, investment calculators, and an AI-powered financial advisor.	TypeScript, React Native, Expo, Google GenAI API
+<b>subhojit@github:~$ cat stack.yml</b>
+languages: [Python, Java, C++, JavaScript, TypeScript, Haskell, SQL]
+backend:   [Flask, FastAPI, Node.js, SQLAlchemy]
+web:       [HTML, CSS, React Native, Expo, jQuery, AJAX]
+ml/data:   [Scikit-learn, Pandas, NumPy, XGBoost]
+database:  [Firebase, MongoDB, SQL]
+tools:     [Git, GitHub, VS Code, Vercel]
 
+<b>subhojit@github:~$ cat contact.txt</b>
+web       <a href="https://subhojitghosh.vercel.app/">subhojitghosh.vercel.app</a>
+github    <a href="https://github.com/subhojitghosh712">github.com/subhojitghosh712</a>
+linkedin  <a href="https://www.linkedin.com/in/ghoshsubhojit/">linkedin.com/in/ghoshsubhojit</a>
+email     <a href="mailto:Subhojit.Ghosh@warwick.ac.uk">Subhojit.Ghosh@warwick.ac.uk</a>
 
-~/stack
-- Languages: Python · Java · C++ · JavaScript · TypeScript · Haskell · SQL
-- Web & backend: React Native · Expo · Flask · Node.js · FastAPI · HTML · CSS · jQuery · AJAX
-- Data & storage: MongoDB · Firebase · SQLAlchemy · SQL
-- Tools: Git · GitHub · Vercel · VS Code
-~/experience
-- Reliance Jio — Software Engineering Intern · Mumbai · Jul–Sep 2026
-- Barclays — Technology Developer Discovery Programme · London · Apr 2026
-- IBM / CSRBOX SkillsBuild — Programme · Jun 2024
-~/contact
-- Portfolio: subhojitghosh.vercel.app
-- LinkedIn: linkedin.com/in/ghoshsubhojit
-- Email: Subhojit.Ghosh@warwick.ac.uk
-<p align="center"><i>Always learning, building, and improving.</i></p>
+<b>subhojit@github:~$</b> █
+</pre>
