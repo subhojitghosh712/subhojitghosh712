@@ -1,33 +1,43 @@
 <p align="center">
-  <img src="./terminal.svg" width="100%" alt="Subhojit Ghosh's animated terminal profile banner"/>
+  <img src="./terminal.svg" width="100%" alt="Animated terminal banner for Subhojit Ghosh, Computer Science student at the University of Warwick." />
 </p>
 
-<pre>
-<b>subhojit@github:~$ cat about.txt</b>
-Computer Science student at the University of Warwick.
-Interested in software engineering, ML and building
-systems that solve real-world problems, end to end.
+<h2 align="center">Hey, I'm Subhojit Ghosh 👋</h2>
 
-<b>subhojit@github:~$ ls ~/projects</b>
-Stock-Price-Predictor  ML-powered stock prediction dashboard
-Bill-Splitter-Deluxe   shared-expense management application
+<p align="center">
+  Second-year Computer Science student at the University of Warwick, interested in AI/ML, software engineering, automation, and cybersecurity.
+</p>
 
-<b>subhojit@github:~$ cat experience.txt</b>
-Barclays   Technology Developer Discovery Programme
-Jio        Software engineering internship
-Warwick    BSc Computer Science
+<p align="center">
+  <a href="https://subhojitghosh.vercel.app/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/ghoshsubhojit/">LinkedIn</a> ·
+  <a href="mailto:Subhojit.Ghosh@warwick.ac.uk">Email</a>
+</p>
 
-<b>subhojit@github:~$ cat stack.yml</b>
-languages: [Python, Java, JavaScript, SQL]
-backend:   [Flask, FastAPI, SQLAlchemy]
-ml/data:   [Scikit-learn, Pandas, NumPy, XGBoost]
-web:       [HTML, CSS, JavaScript]
-tools:     [Git, GitHub, Plotly]
+~/about
+I enjoy building practical software—from full-stack applications and machine-learning tools to automation systems that help people work with data more effectively.
+- 🎓 BSc Computer Science, University of Warwick (2025–2028)
+- 💻 Software Engineering Intern, Reliance Jio — deployed four full-stack network-automation applications
+- 🏦 Barclays Technology Developer Discovery Programme — selected for a 2027 Summer Internship
+- 🧠 Interested in AI/ML, software engineering, automation, and cybersecurity
+~/projects
+Project	What it does	Stack
+Stock Price Predictor	Full-stack ML dashboard predicting stock movements across multiple time horizons, using Random Forest and XGBoost with 30+ technical indicators.	Python, FastAPI, JavaScript, ML
+Bill Splitter Deluxe	Expense-sharing platform with authentication, receipt uploads, debt verification, email notifications, multi-currency support, and admin tools.	Python, Flask, SQLAlchemy, JavaScript
+CrediWise	Financial-literacy mobile app with credit-score simulation, loan tracking, investment calculators, and an AI-powered financial advisor.	TypeScript, React Native, Expo, Google GenAI API
 
-<b>subhojit@github:~$ cat contact.txt</b>
-web       <a href="https://subhojitghosh.vercel.app/">subhojitghosh.vercel.app</a>
-github    <a href="https://github.com/subhojitghosh712">github.com/subhojitghosh712</a>
-linkedin  <a href="YOUR_LINKEDIN_URL">LinkedIn profile</a>
 
-<b>subhojit@github:~$</b> █
-</pre>
+~/stack
+- Languages: Python · Java · C++ · JavaScript · TypeScript · Haskell · SQL
+- Web & backend: React Native · Expo · Flask · Node.js · FastAPI · HTML · CSS · jQuery · AJAX
+- Data & storage: MongoDB · Firebase · SQLAlchemy · SQL
+- Tools: Git · GitHub · Vercel · VS Code
+~/experience
+- Reliance Jio — Software Engineering Intern · Mumbai · Jul–Sep 2026
+- Barclays — Technology Developer Discovery Programme · London · Apr 2026
+- IBM / CSRBOX SkillsBuild — Programme · Jun 2024
+~/contact
+- Portfolio: subhojitghosh.vercel.app
+- LinkedIn: linkedin.com/in/ghoshsubhojit
+- Email: Subhojit.Ghosh@warwick.ac.uk
+<p align="center"><i>Always learning, building, and improving.</i></p>
